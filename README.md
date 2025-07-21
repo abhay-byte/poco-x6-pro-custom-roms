@@ -1,4 +1,4 @@
-### **Poco X6 Pro (duchamp) - Specifications & Benchmarks**
+### **Poco X6 Pro (duchamp)**
 <a href="src/poco_x6_pro.png" target="_blank">
     <p align="center">
         <img src="src/poco_x6_pro.png" alt="poco-x6-pro" style="max-width: 50%; height: 100%;">
@@ -25,7 +25,7 @@ The Poco X6 Pro stands out in the mid-range market due to its flagship-level per
 
 ### **Custom ROMs for Poco X6 Pro (duchamp)**
 
-Here is a summary table of the available custom ROMs based on the data you provided. They are sorted from the most recent release.
+
 | ROM | Version | Android | Status | GApps | Maintainer |
 | :---: | :--- | :-: | :---: | :--- | :--- |
 | **AxionOS** | v1.6 <br> (21-Jul-2025) | 15 | Official | Included | @Saikrishna1504 |
@@ -35,13 +35,34 @@ Here is a summary table of the available custom ROMs based on the data you provi
 | **InfinityX** | v2.9 <br> (06-Jul-2025) | 15 | Unofficial | Included | @zyzzbrahhhh |
 | **RisingOS** | v7.1 <br> (01-Jul-2025) | 15 | Unofficial | Included | @adarsh_8300u |
 | **HorizonDroid** | 5.4 <br> (22-Jun-2025) | 15 | Unofficial | Both | @Jose_Mirinda |
+| **MistOS** | 3.5 Drizzle <br> (21-Jun-2025) | 15 | Unofficial | MINI (included) | @AkariYO |
 
 > **Disclaimer:** Flashing custom ROMs can risk your device. Backup data and follow instructions.
+
+### How to Flash AOSP ROMs
+
+```sh
+# Flash recovery
+fastboot flash vendor_boot_ab vendor_boot.img
+
+# Reboot to recovery
+fastboot reboot recovery
+
+# Sideload ROM (from recovery, after selecting "Apply update via ADB")
+adb sideload ROM.zip
+```
+
 
 ### **Custom ROMs for Poco X6 Pro (duchamp)**
 ---
 
 ### 1. AxionOS v1.6
+<a href="src/axiom.png.png" target="_blank">
+    <p align="left">
+        <img src="src/axiom.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** OFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-21
@@ -69,6 +90,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 2. YAAP-15
+<a href="src/yaap.png" target="_blank">
+    <p align="left">
+        <img src="src/yaap.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-18
@@ -96,6 +123,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 3. LineageOS 22.2
+<a href="src/los.png" target="_blank">
+    <p align="left">
+        <img src="src/los.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-16
@@ -116,6 +149,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 4. VoltageOS v4.5
+<a href="src/vos.png" target="_blank">
+    <p align="left">
+        <img src="src/vos.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-14
@@ -130,6 +169,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 5. Project InfinityX v2.9
+<a href="src/infinityx.png" target="_blank">
+    <p align="left">
+        <img src="src/infinityx.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-06
@@ -156,6 +201,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 6. RisingOS Revived v7.1
+<a href="src/ros.png" target="_blank">
+    <p align="left">
+        <img src="src/ros.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-07-01
@@ -174,6 +225,12 @@ Here is a summary table of the available custom ROMs based on the data you provi
 ---
 
 ### 7. HorizonDroid 5.4 "Hyperion"
+<a href="src/hyperion.png" target="_blank">
+    <p align="left">
+        <img src="src/hyperion.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+    </p>
+</a>
+
 - **Status:** UNOFFICIAL
 - **Android Version:** 15
 - **Release Date:** 2025-06-22
@@ -193,3 +250,20 @@ Here is a summary table of the available custom ROMs based on the data you provi
         - **Features:** Integrated HorizonLab, GameSpace, Face Unlock, and numerous customizations for Status Bar, QS, Lockscreen, and more. Added Per-app volume, Netflix Spoof, Edge Light, and Screen off animations.
         - **Improvements:** Redesigned UDFPS icon and brightness slider, split notifications shade.
         - **Bug Fixes:** Fixed clock seconds, 4G switch, and gesture key issues.
+
+### 8. MistOS 3.5 Drizzle
+<a href="src/mistos.png" target="_blank">
+            <p align="left">
+                <img src="src/mistos.png" alt="poco-x6-pro" style="max-width: 75%; height: 75%;">
+            </p>
+        </a>
+
+- **Status:** UNOFFICIAL
+- **Android Version:** 15
+- **Release Date:** 2025-06-21
+- **Maintainer:** @AkariYO
+- **GApps Type:** MINI (included)
+- **Downloads:**
+    - **Primary:** [sourceforge.net](https://sourceforge.net/projects/patatateam/files/MistOS/Duchamp/MistOS-3.5-Drizzle-15.0-MINI-20250619-duchamp-UNOFFICIAL.zip/download)
+    - **Mirror:** [t.me](https://t.me/shadowsparkledevel/2009)
+   
