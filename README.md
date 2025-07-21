@@ -1,5 +1,11 @@
 ### **Poco X6 Pro (duchamp) - Specifications & Benchmarks**
-![poco-x6-pro](src/poco_x6_pro.png)
+<a href="src/poco_x6_pro.png" target="_blank">
+    <p align="center">
+        <img src="src/poco_x6_pro.png" alt="poco-x6-pro" style="max-width: 50%; height: 100%;">
+    </p>
+</a>
+
+---
 The Poco X6 Pro stands out in the mid-range market due to its flagship-level performance, primarily driven by the MediaTek Dimensity 8300-Ultra chipset.
 |  | **Key Specifications** |
 | :--- | :--- |
@@ -17,34 +23,20 @@ The Poco X6 Pro stands out in the mid-range market due to its flagship-level per
 
 ---
 
-#### **Performance Benchmarks**
-
-These are typical scores for the device running stock firmware. Performance on custom ROMs may vary.
-
-| [AnTuTu Benchmark Logo] | [Geekbench Logo] | [3DMark Logo] |
-| :---: | :---: | :---: |
-| **AnTuTu 10** | **Geekbench 6** | **3DMark Wild Life Extreme** |
-| ≈ **1,400,000** | **Single:** ≈ 1,450 <br> **Multi:** ≈ 4,700 | **Overall Score:** ≈ 3,550 |
-
-***
-
 ### **Custom ROMs for Poco X6 Pro (duchamp)**
 
 Here is a summary table of the available custom ROMs based on the data you provided. They are sorted from the most recent release.
+| ROM | Version | Android | Status | GApps | Maintainer |
+| :---: | :--- | :-: | :---: | :--- | :--- |
+| **AxionOS** | v1.6 <br> (21-Jul-2025) | 15 | Official | Included | @Saikrishna1504 |
+| **YAAP** | 15 <br> (18-Jul-2025) | 15 | Unofficial | MicroG | @zenin1504 |
+| **LineageOS** | 22.2 <br> (16-Jul-2025) | 15 | Unofficial | Vanilla | @rio113 |
+| **VoltageOS** | v4.5 <br> (14-Jul-2025) | 15 | Unofficial | Vanilla | @Saikrishna1504 |
+| **InfinityX** | v2.9 <br> (06-Jul-2025) | 15 | Unofficial | Included | @zyzzbrahhhh |
+| **RisingOS** | v7.1 <br> (01-Jul-2025) | 15 | Unofficial | Included | @adarsh_8300u |
+| **HorizonDroid** | 5.4 <br> (22-Jun-2025) | 15 | Unofficial | Both | @Jose_Mirinda |
 
-| Logo | ROM Name & Version | Android Ver. | Status | GApps Type | Maintainer | Key Features / Notes |
-| :---: | :--- | :-: | :---: | :--- | :--- | :--- |
-| **AX** | **AxionOS v1.6** <br> <sub>(21-Jul-2025)</sub> | A15 | **Official** | Included | @Saikrishna1504 | Final A15 build. Includes V4A & MiuiCamera. Switched to OSS Kernel. |
-| **YA** | **YAAP-15** <br> <sub>(18-Jul-2025)</sub> | A15 | Unofficial | MicroG <br> (De-Googled) | @zenin1504 | Root included. Features display burn-in protection and Dolby Atmos. |
-| **LI** | **LineageOS 22.2** <br> <sub>(16-Jul-2025)</sub> | A15 | Unofficial | Vanilla <br> (Required) | @rio113 | Must be flashed from LineageOS recovery. **Known Bug:** Front camera may not work. |
-| **VO** | **VoltageOS v4.5** <br> <sub>(14-Jul-2025)</sub> | A15 | Unofficial | Vanilla | @Saikrishna1504 | Supports OTA updates. Sandboxed GApps is an available option. |
-| **IN** | **Project InfinityX v2.9** <br> <sub>(06-Jul-2025)</sub> | A15 | Unofficial | Included | @zyzzbrahhhh | Final A15 source build. **Note:** Screen-off FOD has issues on 'fpc' sensors. |
-| **RI** | **RisingOS Revived v7.1** <br> <sub>(01-Jul-2025)</sub> | A15 | Unofficial | Included | @adarsh_8300u | Fixed WPA3 & 6GHz Hotspot and addressed WiFi wakelock issues. |
-| **HO** | **HorizonDroid 5.4** <br> <sub>(22-Jun-2025)</sub> | A15 | Unofficial | Both | @Jose_Mirinda | **Warning: Not for Focaltech screens.** Highly customized. Includes GameSpace & Face Unlock. |
-
-***
-
-**Disclaimer:** Flashing a custom ROM is an advanced procedure that carries risks, including bricking your device or voiding your warranty. Always back up your data and follow the specific flashing instructions provided by the ROM maintainer very carefully.
+> **Disclaimer:** Flashing custom ROMs can risk your device. Backup data and follow instructions.
 
 ### **Custom ROMs for Poco X6 Pro (duchamp)**
 ---
