@@ -22,6 +22,15 @@ The Poco X6 Pro stands out in the mid-range market due to its flagship-level per
 | **Connectivity** | Wi-Fi 6, Bluetooth 5.4, NFC, Infrared Port |
 
 ---
+### **Benchmark (Antutu v10)**
+---
+<a href="src/antutu.png" target="_blank">
+    <p align="center">
+        <img src="src/antutu.png" alt="poco-x6-pro" style="max-width: 25%; height: 50%;">
+    </p>
+</a>
+
+---
 
 ### **Custom ROMs for Poco X6 Pro (duchamp)**
 
